@@ -97,6 +97,15 @@ A later phase should define:
 - MCP is configured in read-only mode for PnP PowerShell server.
 - Destructive commands require explicit human approval before execution.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for code style, testing, and pull request guidance.
+
+## Community
+
+See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community expectations.
+See [SECURITY.md](SECURITY.md) for security reporting guidance.
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.

@@ -1,7 +1,11 @@
 # M365 AI Automation Toolkit
 
-## Overview
+![License](https://img.shields.io/badge/license-MIT-green)
+
 This repository is a reusable AI-assisted Microsoft 365 automation workspace for local development in VS Code with GitHub Copilot.
+
+## Overview
+Use this toolkit to build safe, repeatable Microsoft 365 automation scripts with PowerShell, Microsoft Graph, PnP PowerShell, and CLI for Microsoft 365.
 
 This phase configures local tooling only. Authentication and Entra application configuration are handled separately.
 
@@ -92,6 +96,10 @@ A later phase should define:
 - Secret-like files are excluded in `.gitignore`.
 - MCP is configured in read-only mode for PnP PowerShell server.
 - Destructive commands require explicit human approval before execution.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Creating Scripts
 Use reusable PowerShell patterns:

@@ -1,0 +1,6 @@
+{
+  "powershell.powerShellDefaultVersion": "PowerShell (x64)",
+  "powershell.codeFormatting.preset": "OTBS",
+  "editor.formatOnSave": false,
+  "files.eol": "\\n"
+}

@@ -1,0 +1,20 @@
+{
+  "servers": {
+    "PnP PowerShell MCP Server": {
+      "type": "stdio",
+      "command": "pnp-powershell-mcp-server",
+      "env": {
+        "PNP_MCP_READONLY": "true",
+        "PNP_MCP_COMMAND_TIMEOUT_SECONDS": "1800"
+      }
+    },
+    "CLI for Microsoft 365 MCP Server": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@pnp/cli-microsoft365-mcp-server@latest"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
+secrets.json
+credentials.json
+tokens.json
+
+# Local configuration
+config/local.*
+config/private.*
+
+# Runtime output
+logs/
+output/
+!logs/.gitkeep
+!output/.gitkeep
+
+# PowerShell
+*.clixml
+
+# VS Code user-specific
+.vscode/*.local.json
